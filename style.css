@@ -1,0 +1,89 @@
+            /* Global Styles */
+            
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            
+            h1 {
+                font-weight: 300;
+            }
+            
+            body {
+                scroll-behavior: smooth;
+                padding: 0 8% 30px 8%;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                line-height: 1.6;
+                color: #f6f0f0;
+                background-color: rgb(1, 8, 40);
+            }
+            
+            header {
+                padding-top: 40px;
+            }
+            
+            section {
+                padding: 40px 0;
+            }
+            
+            .logo {
+                text-transform: uppercase;
+                font-weight: 400;
+                font-size: 1.6em;
+            }
+            
+            nav {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            li a:hover {
+                animation-delay: 0.5ms;
+                color: white;
+            }
+            
+            ul li a {
+                text-decoration: none;
+                color: aqua;
+                padding: 0 10px 0 10px;
+            }
+            
+            nav ul {
+                list-style: none;
+                display: flex;
+            }
+            
+            #about {
+                display: flex;
+                padding: 0 13% 0 13%;
+                justify-content: space-between;
+            }
+            
+            #about img {
+                box-shadow: 1px 0.5px 12px 0.3px white;
+                border-radius: 10px;
+                height: 205px;
+                width: 205px;
+            }
+            
+            #about h3,
+            p {
+                letter-spacing: 1.5px;
+            }
+            
+            .yellow-color {
+                color: rgba(255, 179, 0, 0.886)
+            }
+            
+            .aqua-color {
+                color: aqua;
+            }
+            
+            .skills ul {
+                padding: 0 0 0 14%;
+            }
+            
+            .experience ul {
+                padding: 0 0 0 14%;
+            }
